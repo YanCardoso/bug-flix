@@ -60,7 +60,7 @@ function App() {
       </section>
 
       <footer>
-        Feito por <span role></span>
+        Feito por <span role>🤠</span> Yan Cardoso
       </footer>
 
       {movieList.length <= 0 && (
