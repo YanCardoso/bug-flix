@@ -7,6 +7,10 @@ function FeaturedMovie({ item }) {
   for (let i in item.genres) {
     genres.push(item.genres[i].name);
   }
+  let description = item.overview;
+  if (description.length > 400) {
+    description = description.substring(0, 400)+'...';
+  }
 
   return (
     <section
@@ -28,7 +32,7 @@ function FeaturedMovie({ item }) {
               {item.number_of_seasons !== 1 ? "s" : ""}
             </div>
 
-            <div className="featured--description">{item.overview}</div>
+            <div className="featured--description">{description}</div>
 
             <div className="featured--buttons">
               <a href={`/watch/${item.id}`} className="featured--watchbutton">
