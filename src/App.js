@@ -61,6 +61,7 @@ function App() {
 
       <footer>
         Feito por <span role>🤠</span> Yan Cardoso
+        <img src="tmdb.svg" alt="TMDB" />
       </footer>
 
       {movieList.length <= 0 && (
