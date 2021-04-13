@@ -13,6 +13,13 @@ font-family: 'Roboto', sans-serif;
   margin-top: -150px;
 }
 
-.footer img {
+footer {
+  padding: 10px;
+  background-color: #141414;
+
+}
+footer img {
+  margin-top: 15px;
+  display: block;
   height: 100px;
 }
