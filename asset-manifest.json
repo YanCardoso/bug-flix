@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bug-flix/static/css/main.397f037d.css",
-    "main.js": "/bug-flix/static/js/main.ae6efc7a.js",
+    "main.js": "/bug-flix/static/js/main.337d8065.js",
     "index.html": "/bug-flix/index.html",
     "main.397f037d.css.map": "/bug-flix/static/css/main.397f037d.css.map",
-    "main.ae6efc7a.js.map": "/bug-flix/static/js/main.ae6efc7a.js.map"
+    "main.337d8065.js.map": "/bug-flix/static/js/main.337d8065.js.map"
   },
   "entrypoints": [
     "static/css/main.397f037d.css",
-    "static/js/main.ae6efc7a.js"
+    "static/js/main.337d8065.js"
   ]
 }
